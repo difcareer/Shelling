@@ -1,0 +1,2350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="20713050" android:versionName="2.7.1" package="com.cleanmaster.security" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448" xmlns:android="http://schemas.android.com/apk/res/android">
+	
+
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="17">
+</uses-sdk>
+	
+
+	<uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.cleanmaster.security.permission.C2D_MESSAGE">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE">
+</uses-permission>
+	
+
+	<supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true">
+</supports-screens>
+	
+
+	<uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.android.launcher.permission.READ_SETTINGS">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.android.launcher3.permission.WRITE_SETTINGS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.INTERNET">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.READ_PHONE_STATE">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.RECEIVE_SMS">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.CAMERA">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.VIBRATE">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.WRITE_SETTINGS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.BATTERY_STATS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.WRITE_SMS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.WRITE_CALL_LOG">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.WRITE_CONTACTS">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.GET_ACCOUNTS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.USE_CREDENTIALS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.MANAGE_ACCOUNTS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.CALL_PHONE">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.BLUETOOTH">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.WAKE_LOCK">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.GET_TASKS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.GET_PACKAGE_SIZE">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.CLEAR_APP_CACHE">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.RESTART_PACKAGES">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.SEND_SMS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.READ_SMS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.READ_CONTACTS">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.READ_CALL_LOG">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.RECEIVE_WAP_PUSH">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION">
+</uses-permission>
+	
+
+	<permission android:name="com.cleanmaster.security.permission.MAPS_RECEIVE" android:protectionLevel="0x00000002">
+</permission>
+	
+
+	<uses-permission android:name="com.cleanmaster.security.permission.MAPS_RECEIVE">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.sec.android.provider.logsprovider.permission.READ_LOGS">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.sec.android.provider.logsprovider.permission.WRITE_LOGS">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.sec.android.provider.badge.permission.READ">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.sec.android.provider.badge.permission.WRITE">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE">
+</uses-permission>
+	
+
+	<uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT">
+</uses-permission>
+	
+
+	<uses-permission android:name="android.permission.PACKAGE_USAGE_STATS">
+</uses-permission>
+	
+
+	<uses-feature android:glEsVersion="0x00020000" android:required="true">
+</uses-feature>
+	
+
+	<permission android:name="com.cleanmaster.security.permission.C2D_MESSAGE" android:protectionLevel="0x00000002">
+</permission>
+	
+
+	<uses-feature android:name="android.hardware.telephony" android:required="false">
+</uses-feature>
+	
+
+	<uses-feature android:name="android.hardware.camera" android:required="false">
+</uses-feature>
+	
+
+	<uses-feature android:name="android.hardware.camera.autofocus" android:required="false">
+</uses-feature>
+	
+
+	<uses-feature android:name="android.hardware.location" android:required="false">
+</uses-feature>
+	
+
+	<uses-feature android:name="android.hardware.location.gps" android:required="false">
+</uses-feature>
+	
+
+	<uses-feature android:name="android.hardware.location.network" android:required="false">
+</uses-feature>
+	
+
+	<uses-feature android:name="android.hardware.bluetooth" android:required="false">
+</uses-feature>
+	
+
+	<uses-feature android:name="android.software.live_wallpaper" android:required="false">
+</uses-feature>
+	
+
+	<application android:allowBackup="false" android:allowClearUserData="false" android:icon="@7F020464" android:label="@7F080B33" android:name="ks.cm.antivirus.main.MobileDubaApplication" android:theme="@7F0A0047">
+		
+
+		<receiver android:name="ks.cm.antivirus.gcm.GCMRecevier" android:permission="com.google.android.c2dm.permission.SEND" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.google.android.c2dm.intent.RECEIVE">
+</action>
+				
+
+				<action android:name="com.google.android.c2dm.intent.REGISTRATION">
+</action>
+				
+
+				<category android:name="com.cleanmaster.security">
+</category>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:name="ks.cm.antivirus.pushmessage.PushMessageReceiver">
+</receiver>
+		
+
+		<service android:name="ks.cm.antivirus.gcm.GCMIntentService" android:process=":DefendService">
+</service>
+		
+
+		<provider android:authorities="@7F080C5B" android:exported="false" android:name="ks.cm.antivirus.vault.util.VaultContentProvider" android:process=":DefendService">
+</provider>
+		
+
+		<receiver android:name="ks.cm.antivirus.antiharass.firewall.OutgoingCallListener" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.intent.action.PHONE_STATE">
+</action>
+				
+
+				<action android:name="android.intent.action.NEW_OUTGOING_CALL">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<activity android:exported="true" android:name="ks.cm.antivirus.scan.network.ui.WifiSpeedTestPortalActivity" android:screenOrientation="1">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.cleanmaster.security.action.WIFI_SPEED_TEST">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<service android:exported="false" android:name="ks.cm.antivirus.cmnow.UpdateAlarmIntentService" android:process=":DefendService">
+</service>
+		
+
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBi2g5U1HiDl6xx5Dr8TkR1FpO7X1jx3ac">
+</meta-data>
+		
+
+		<meta-data android:name="com.google.android.gms.version" android:value="@7F090007">
+</meta-data>
+		
+
+		<meta-data android:name="com.gogolook.whoscall.appId" android:value="wc89495015">
+</meta-data>
+		
+
+		<meta-data android:name="authorities_prefix" android:value="@7F080B37">
+</meta-data>
+		
+
+		<meta-data android:name="is_intl" android:value="@7F080C53">
+</meta-data>
+		
+
+		<activity android:launchMode="1" android:name="ks.cm.antivirus.main.SplashActivity" android:screenOrientation="1" android:theme="@7F0A003F">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.intent.action.MAIN">
+</action>
+				
+
+				<category android:name="android.intent.category.LAUNCHER">
+</category>
+				
+
+			</intent-filter>
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.news">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<activity android:exported="true" android:launchMode="2" android:name="ks.cm.antivirus.scan.ScanMainActivity" android:screenOrientation="1">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.applock.theme">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:excludeFromRecents="true" android:launchMode="1" android:name="ks.cm.antivirus.conflit.check.ConfCheckerActivity" android:theme="@7F0A0087" android:windowSoftInputMode="0x00000012">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:name="ks.cm.antivirus.api.ActionRouterActivity" android:screenOrientation="1" android:theme="@7F0A0087">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.launch">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.query">
+</action>
+				
+
+				<action android:name="com.cleanmaster.security.action.WIFI_SPEED_TEST">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.trust.ScanTrustActivtiy" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:name="ks.cm.antivirus.installmonitor.InstallMonitorNoticeActivity" android:process=":ScanService" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:name="ks.cm.antivirus.installmonitor.InstallMonitorSKNoticeActivity" android:process=":ScanService" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:name="ks.cm.antivirus.installmonitor.InstallMonitorTowelrootNoticeActivity" android:process=":ScanService" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:name="ks.cm.antivirus.neweng.leakscan.ApkLeakDialogActivity" android:process=":ScanService" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:launchMode="3" android:name="ks.cm.antivirus.defend.activity.SmsNoticeActivity" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.defend.activity.MaliciousUrlNoticeActivity" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.defend.activity.AdultPrivacyNoticeActivity" android:screenOrientation="1" android:theme="@7F0A0086">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.defend.activity.PrivacyDeepCleanNoticeActivity" android:screenOrientation="1" android:theme="@7F0A0086">
+</activity>
+		
+
+		<activity android:launchMode="3" android:name="ks.cm.antivirus.defend.activity.AuthHackUrlNoticeActivity" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.sdscan.SDCardScanActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antiharass.ui.EditActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antiharass.ui.AntiharassCallDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:exported="true" android:launchMode="2" android:name="ks.cm.antivirus.antiharass.ui.AntiharassActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antiharass.ui.AntiharassSettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antiharass.ui.CallLogActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antiharass.ui.ContactActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.main.SettingMainActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.main.WifiSafeSettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.main.ScanAdvanceSettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.main.AdvUrlCleanSettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.main.AboutSoftwareActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.main.IconfontCheckActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.language.LanguageActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.result.SafeAppListActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.result.ProtectionListActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.result.MoreFunctionListActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.VulnerabilityDetailsActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.TowelRootHoleDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.FakeIdHoleDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.BroadAnyWhereHoleDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.StagefrightHoleDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.result.RiskyUrlDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.result.timeline.ui.PkgMonitorListActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.result.timeline.ui.CmsbGuideActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.result.RiskyUrlCategoryDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.result.UrlTraceDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.result.SuggestionPrivacyDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.HoleDetailListActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:launchMode="1" android:name="ks.cm.antivirus.cmsgesture.ui.SavePatternActivity" android:screenOrientation="1" android:theme="@7F0A003E">
+</activity>
+		
+
+		<activity android:exported="false" android:launchMode="1" android:name="ks.cm.antivirus.applock.password.AppLockChangePasswordActivity" android:screenOrientation="1" android:theme="@7F0A0089" android:windowSoftInputMode="0x00000003">
+</activity>
+		
+
+		<activity android:launchMode="3" android:name="ks.cm.antivirus.applock.password.AppLockChangePasswordInstanceActivity" android:screenOrientation="1" android:theme="@7F0A003E">
+</activity>
+		
+
+		<activity android:launchMode="1" android:name="ks.cm.antivirus.applock.password.AppLockCheckPasswordHostActivity" android:screenOrientation="1" android:theme="@7F0A0089" android:windowSoftInputMode="0x00000003">
+</activity>
+		
+
+		<activity android:launchMode="3" android:name="ks.cm.antivirus.applock.password.AppLockCheckPasswordHostInstanceActivity" android:screenOrientation="1" android:theme="@7F0A0089" android:windowSoftInputMode="0x00000003">
+</activity>
+		
+
+		<activity android:exported="false" android:launchMode="3" android:name="ks.cm.antivirus.applock.intruder.ShowPhotoTimeLineActivity" android:screenOrientation="1" android:theme="@7F0A0089">
+</activity>
+		
+
+		<activity android:exported="false" android:launchMode="3" android:name="ks.cm.antivirus.applock.intruder.AppLockIntruderSelfieExperienceActivity" android:screenOrientation="1" android:theme="@7F0A0089">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.ui.AppLockGuideLockDialog" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.ui.AppLockMIUIFloatingWIndowEnableGuideActivity" android:noHistory="true" android:screenOrientation="1" android:theme="@android:01030010">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.ui.AppLockMIUIIntruderSelfieGuideActivity" android:screenOrientation="1" android:theme="@android:01030010">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.theme.ui.ThemeListActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:launchMode="3" android:name="ks.cm.antivirus.applock.theme.ui.ThemeListInstanceActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.protect.SecretBoxActivity" android:screenOrientation="1" android:theme="@7F0A008C">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.intent.action.MAIN">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<activity android:icon="@7F0201FA" android:label="@7F08036D" android:name="ks.cm.antivirus.applock.protect.bookmark.SecretBoxBookmarksShareActivity" android:theme="@7F0A008C">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.intent.action.SEND">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+				<data android:mimeType="text/plain">
+</data>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="false" android:launchMode="3" android:name="ks.cm.antivirus.applock.protect.bookmark.SecretBoxBookmarksActivity" android:screenOrientation="1" android:theme="@7F0A008C">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.protect.bookmark.AddBookmarksActivity" android:screenOrientation="1" android:theme="@7F0A008C" android:windowSoftInputMode="0x00000010">
+</activity>
+		
+
+		<activity android:configChanges="0x000005A0" android:excludeFromRecents="true" android:hardwareAccelerated="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.protect.bookmark.SecretBoxPrivateWebViewCoreActivity" android:theme="@7F0A008C">
+</activity>
+		
+
+		<provider android:authorities="@7F080C56" android:exported="false" android:name="ks.cm.antivirus.applock.protect.bookmark.BookmarkProvider">
+</provider>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.theme.custom.CustomCropPhotoActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.theme.custom.CustomPickPhotoActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:name="ks.cm.antivirus.applock.dialog.DialogActivity" android:screenOrientation="1" android:taskAffinity=".applock.dialog" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.vault.ui.VaultTabActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.vault.ui.VaultSelectPhotoActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.vault.ui.VaultUserInstructionActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.vault.ui.VaultFileDetailedViewActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.vault.ui.VaultSettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="2" android:name="ks.cm.antivirus.antitheft.ui.ScreamActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="2" android:name="ks.cm.antivirus.antitheft.ui.ScreamRemoteActivity" android:process=":DefendService" android:screenOrientation="1" android:taskAffinity="ks.cm.antivirus">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antitheft.ui.LockActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antitheft.ui.BackupContactsActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antitheft.ui.BackupSmsActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antitheft.ui.BackupCallHistoryActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antitheft.ui.BackupPhotoActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antitheft.ui.LocateActivity1" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antitheft.ui.LocateActivity2" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:launchMode="2" android:name="ks.cm.antivirus.antitheft.ui.EraseActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:launchMode="2" android:name="ks.cm.antivirus.antitheft.ui.MoreActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:launchMode="2" android:name="ks.cm.antivirus.antitheft.ui.AntitheftSettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="com.ijinshan.duba.antiharass.ui.CheatSmsActivity" android:process=":DefendService" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:name="com.ijinshan.duba.antiharass.ui.StagefrightMMSActivity" android:process=":DefendService" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.guide.GuideInstallCmDialog" android:noHistory="true" android:process=":DefendService" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.main.ui.AppLockMainActivity" android:screenOrientation="1" android:theme="@7F0A008C">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.intent.action.MAIN">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.main.ui.AppLockActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.ui.AppLockSettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.ui.AppLockLockSettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.ui.AppLockChooseLockAppActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.intruder.AppLockIntruderSelfieSettingActivity" android:screenOrientation="1" android:taskAffinity=".applock_intruder">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.intruder.AppLockIntruderSelfieSettingSingleTopActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:exported="false" android:launchMode="3" android:name="ks.cm.antivirus.applock.ui.IntruderSelfiePhotoGridInstanceActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.ui.IntruderSelfiePhotoGridActivity" android:screenOrientation="1" android:taskAffinity=".applock_intruder">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.ui.IntruderSelfiePhotoPagerActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.ui.AppLockSecretBoxMenuActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.ui.AppLockEntryActivity" android:screenOrientation="1" android:theme="@7F0A003D">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.recommend.AppLockRecommendIntruderPlusActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.widget.AppLockEntryUnlockActivity" android:screenOrientation="1" android:theme="@7F0A003D">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.widget.AppLockCheckWidgetActivity" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:name="ks.cm.antivirus.applock.ui.AppLockUnlockAppActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.lockscreen.ui.AppLockScreenActivity" android:process=":DefendService" android:screenOrientation="1" android:theme="@7F0A003D">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.applock.lockscreen.ui.SysLockScreenActivity" android:screenOrientation="1" android:theme="@7F0A003D">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.ui.AppLockRecommendedAppActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.ui.AppLockRecommendedResultActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.ui.AppLockRecommendedResultExperienceActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.applock.ui.AppLockRecommendedIntruderSelfieActivity" android:screenOrientation="1" android:theme="@7F0A0089">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:name="ks.cm.antivirus.applock.ui.AppLockCnRecommendActivity" android:screenOrientation="1" android:theme="@7F0A008C">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:name="ks.cm.antivirus.applock.ui.AppLockCnRecommendRouterActivity" android:screenOrientation="1" android:taskAffinity="cn.com.cleanmaster.security.applockcnrecommendrouter" android:theme="@7F0A0087">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="cn.ks.cm.antivirus.launch">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.query">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<activity android:exported="false" android:launchMode="1" android:name="ks.cm.antivirus.applock.ui.AppLockOAuthActivity" android:screenOrientation="1" android:theme="@7F0A0089">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.applock.AppLockOAuthActivity.START">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="false" android:name="ks.cm.antivirus.applock.fingerprint.StartFingerPrintSettingsActivity" android:screenOrientation="1" android:taskAffinity=".applock.recommend" android:theme="@7F0A0000">
+</activity>
+		
+
+		<activity android:launchMode="1" android:name="ks.cm.antivirus.applock.ui.AppLockSafeQuestionActivity" android:screenOrientation="1" android:taskAffinity=".applocklib.oauth" android:theme="@android:01030010">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="false" android:name="ks.cm.antivirus.applock.statistics.StatisticRecommendAppDialogActivity" android:screenOrientation="1" android:taskAffinity=".applock.recommend" android:theme="@7F0A0000">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="false" android:name="ks.cm.antivirus.applock.tutorial.UsageStatsPermTutorialActivity" android:screenOrientation="1" android:taskAffinity=".applock.usagestats" android:theme="@7F0A0000">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="false" android:name="ks.cm.antivirus.applock.tutorial.AccessibilityPermTutorialActivity" android:screenOrientation="1" android:taskAffinity=".applock.accessibility" android:theme="@7F0A0000">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.recommend.cmb.CMBPromoteActivity" android:theme="@7F0A0001">
+</activity>
+		
+
+		<receiver android:name="ks.cm.antivirus.applock.receiver.PhoneCallReceiver">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.intent.action.PHONE_STATE">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:exported="false" android:name="ks.cm.antivirus.applock.receiver.AppLockReportReceiver" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.applock.action.report">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:exported="false" android:name="ks.cm.antivirus.applock.util.UpgradeNotiReceiver" android:process=":DefendService">
+</receiver>
+		
+
+		<receiver android:enabled="true" android:exported="false" android:name="ks.cm.antivirus.applock.receiver.SecretBoxShortcutStatusReceiver">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.applock.action.shortcut.status">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:exported="false" android:name="ks.cm.antivirus.scheduletask.ScheduleTaskAlarmReceiver" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.push2.task_execution">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="true" android:launchMode="2" android:name="ks.cm.antivirus.scan.RiskyUrlScanActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="true" android:launchMode="3" android:name="ks.cm.antivirus.scan.RiskyUrlScanNotificationActivity" android:theme="@android:01030010">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.PushWebViewActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x000004A0" android:enabled="true" android:icon="@7F020464" android:label="@7F080515" android:launchMode="3" android:name="ks.cm.antivirus.scan.PrivateWebViewActivity" android:process=":PrivateWebView" android:theme="@7F0A0017">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.intent.action.VIEW">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+				<category android:name="android.intent.category.BROWSABLE">
+</category>
+				
+
+				<data android:scheme="http">
+</data>
+				
+
+				<data android:scheme="https">
+</data>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<activity android:configChanges="0x000005A0" android:excludeFromRecents="true" android:hardwareAccelerated="true" android:launchMode="3" android:name="ks.cm.antivirus.scan.PrivateWebViewCoreActivity" android:process=":PrivateWebView">
+</activity>
+		
+
+		<activity android:exported="false" android:launchMode="2" android:name="ks.cm.antivirus.scan.network.finder.WiFiFinderActivity" android:process=":DefendService" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="false" android:launchMode="3" android:name="ks.cm.antivirus.defend.network.WifiOnOffActivity" android:process=":DefendService" android:screenOrientation="1" android:theme="@7F0A0087">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="false" android:launchMode="3" android:name="ks.cm.antivirus.defend.network.WifiEasySwitchActivity" android:process=":DefendService" android:screenOrientation="1" android:theme="@7F0A0087">
+</activity>
+		
+
+		<activity android:exported="false" android:name="ks.cm.antivirus.scan.network.finder.CaptivePortalLoginActivity" android:process=":DefendService" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="false" android:launchMode="3" android:name="ks.cm.antivirus.scan.network.connecter.WifiConnectionRouteActivity" android:process=":DefendService" android:screenOrientation="1" android:theme="@7F0A0087">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="false" android:launchMode="3" android:name="ks.cm.antivirus.defend.KeepForegroundActivity" android:process=":DefendService" android:screenOrientation="1" android:theme="@7F0A0087">
+</activity>
+		
+
+		<meta-data android:name="KMOB_ID" android:value="duba">
+</meta-data>
+		
+
+		<meta-data android:name="KMOB_APP_ID" android:value="106">
+</meta-data>
+		
+
+		<service android:exported="false" android:name="ks.cm.antivirus.cloudconfig.CloudCfgIntentService" android:process=":DefendService">
+</service>
+		
+
+		<service android:exported="false" android:name="ks.cm.antivirus.common.utils.UrlCleanIntentService" android:process=":DefendService">
+</service>
+		
+
+		<service android:exported="false" android:name="ks.cm.antivirus.common.utils.activityrecognition.ActivityRecognitionIntentService" android:process=":DefendService">
+</service>
+		
+
+		<service android:exported="true" android:name="ks.cm.antivirus.defend.DefendService" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.defend.DefendService.RESTART">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.remotedata.IRemoteDataBinder.SECURITY">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.ibattery.interfaces.IBatteryClient.SECURITY">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.notification.NotificationClient.SECURITY">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.ad.replace.AdReplaceAction.SECURITY">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</service>
+		
+
+		<service android:exported="false" android:name="ks.cm.antivirus.applock.service.AppLockService" android:process=":AppLock">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.applock.service.takepicture">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.applock.service.endservice">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</service>
+		
+
+		<service android:label="@7F080B32" android:name="ks.cm.antivirus.applock.service.NotificationMonitorService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.service.notification.NotificationListenerService">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</service>
+		
+
+		<service android:exported="false" android:name="ks.cm.antivirus.defend.EcmoService" android:process=":DefendService">
+</service>
+		
+
+		<service android:exported="false" android:name="ks.cm.antivirus.defend.CrashReportService" android:process=":CrashReport">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.cleanmaster.security.crash.report">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</service>
+		
+
+		<service android:exported="false" android:name="ks.cm.antivirus.neweng.service.ScanService" android:process=":ScanService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.watcher.ACTION_EXAM.SECURITY">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</service>
+		
+
+		<service android:exported="true" android:name="ks.cm.antivirus.api.CMSecurityAPIService" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.api.SECURITY">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</service>
+		
+
+		<provider android:authorities="@7F080B5A" android:exported="false" android:name="com.cmcm.locker.sdk.config.ConfigProvider" android:process=":DefendService">
+</provider>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="com.cmcm.locker.sdk.ui.DismissActivity" android:process=":locker" android:theme="@7F0A0084">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="com.cmcm.locker.sdk.ui.KNoticationAccessGuideActivity" android:theme="@7F0A0085">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="com.cmcm.locker.sdk.ui.NotificationGuideActivity">
+</activity>
+		
+
+		<activity android:name="com.locker.sdk.ui.CMLockerSDKSettingsActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="com.locker.sdk.ui.CMLockerSDKPWSetting" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="com.locker.sdk.ui.CMLockerSDKAutomaticallyLockActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="com.locker.sdk.ui.CMLockerSDKNotifySettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="com.locker.sdk.ui.CMLockerSDKCustomizedSetting" android:screenOrientation="1">
+</activity>
+		
+
+		<service android:exported="false" android:name="com.locker.sdk.service.CMLockerSDKService" android:process=":locker">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="action_cmlocker_service_start">
+</action>
+				
+
+				<action android:name="action_cmlocker_service_stop">
+</action>
+				
+
+				<action android:name="action_accessibility_service_connection">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</service>
+		
+
+		<service android:icon="@7F020314" android:label="@7F08035C" android:name="com.cmcm.locker.sdk.logic.service.NotificationListener" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.service.notification.NotificationListenerService">
+</action>
+				
+
+				<action android:name="cmlocker_sdk_action_bind_locker_service">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</service>
+		
+
+		<service android:enabled="false" android:label="@7F080B3B" android:name="com.cmcm.locker.sdk.logic.service.NotifyAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.accessibilityservice.AccessibilityService">
+</action>
+				
+
+			</intent-filter>
+			
+
+			<meta-data android:name="android.accessibilityservice" android:resource="@7F050004">
+</meta-data>
+			
+
+		</service>
+		
+
+		<provider android:authorities="@7F080B5B" android:exported="true" android:name="com.cmcm.locker.sdk.config.LockerActiveProvider" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.cmcm.intent.action.LOCKER_ACTIVE">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</provider>
+		
+
+		<receiver android:exported="true" android:label="@7F080B5B" android:name="com.cmcm.locker.sdk.logic.FakeLockerReceiver" android:process=":locker">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.cmcm.intent.fake.action.LOCKER_ACTIVE">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:exported="true" android:name="ks.cm.antivirus.utils.InstallReferrerReceiver" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.android.vending.INSTALL_REFERRER">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:description="@7F080001" android:name="ks.cm.antivirus.utils.CMSDeviceAdminReceiver" android:permission="android.permission.BIND_DEVICE_ADMIN">
+			
+
+			<meta-data android:name="android.app.device_admin" android:resource="@7F050002">
+</meta-data>
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.app.action.DEVICE_ADMIN_ENABLED">
+</action>
+				
+
+				<action android:name="com.cmcm.locker.sdk.ACTION_PASSWORD_FAILED">
+</action>
+				
+
+				<action android:name="com.cmcm.locker.sdk.ACTION_PASSWORD_SUCCEEDED">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:exported="false" android:name="ks.cm.antivirus.watcher.ScanReceiver" android:process=":DefendService">
+			
+
+			<intent-filter android:priority="2147483647">
+				
+
+				<action android:name="android.intent.action.PACKAGE_ADDED">
+</action>
+				
+
+				<action android:name="android.intent.action.PACKAGE_REMOVED">
+</action>
+				
+
+				<data android:scheme="package">
+</data>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:exported="true" android:name="ks.cm.antivirus.receiver.AutoRunReceiver">
+			
+
+			<intent-filter android:priority="2147483647">
+				
+
+				<action android:name="android.intent.action.BOOT_COMPLETED">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:name="ks.cm.antivirus.receiver.BootCompletedReceiver" android:process=":DefendService">
+			
+
+			<intent-filter android:priority="2147483647">
+				
+
+				<action android:name="android.intent.action.BOOT_COMPLETED">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:name="ks.cm.antivirus.receiver.UserUnLockReceiver" android:process=":DefendService">
+			
+
+			<intent-filter android:priority="2147483647">
+				
+
+				<action android:name="android.intent.action.USER_PRESENT">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:name="ks.cm.antivirus.receiver.SmsFilterReceiver" android:process=":DefendService">
+			
+
+			<intent-filter android:priority="999">
+				
+
+				<action android:name="android.provider.Telephony.SMS_RECEIVED">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:name="ks.cm.antivirus.antitheft.sms.SmsCtrl$LocationReceiver">
+</receiver>
+		
+
+		<receiver android:name="ks.cm.antivirus.antitheft.gcm.LocationObject$RetryLocationReceiver">
+</receiver>
+		
+
+		<activity android:name="ks.cm.antivirus.antitheft.sms.LockPhotoActivity">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.antitheft.ConfirmCredentialsActivityForLock">
+</activity>
+		
+
+		<activity android:launchMode="3" android:name="ks.cm.antivirus.applock.ui.GoogleAccountVerificationGuideActivity">
+</activity>
+		
+
+		<receiver android:exported="true" android:name="ks.cm.antivirus.receiver.DeleteNotifyReceiver" android:process=":DefendService">
+</receiver>
+		
+
+		<receiver android:name="ks.cm.antivirus.widget.AppWidgetProviderControl" android:process=":DefendService">
+			
+
+			<intent-filter android:priority="2147483647">
+				
+
+				<action android:name="com.cleanmaster.security.ACTION_UPDATE_APPWIDGET">
+</action>
+				
+
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.widget.ACTION_SAFE">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.widget.ACTION_RISK">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.widget.ACTION_DANGER">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.widget.ACTION_DESTROY">
+</action>
+				
+
+			</intent-filter>
+			
+
+			<meta-data android:name="android.appwidget.provider" android:resource="@7F050005">
+</meta-data>
+			
+
+		</receiver>
+		
+
+		<receiver android:label="@7F080C27" android:name="ks.cm.antivirus.applock.widget.AppLockWidgetProviderControl" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.applock.widget.ACTION_ENABLE">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.applock.widget.ACTION_DISABLE">
+</action>
+				
+
+			</intent-filter>
+			
+
+			<meta-data android:name="android.appwidget.provider" android:resource="@7F050001">
+</meta-data>
+			
+
+		</receiver>
+		
+
+		<provider android:authorities="@7F080C58" android:exported="false" android:name="ks.cm.antivirus.provider.DubaConfigProvider" android:process=":DefendService">
+</provider>
+		
+
+		<provider android:authorities="@7F080C57" android:exported="false" android:name="ks.cm.antivirus.applock.theme.ThemeContentProvider" android:process=":DefendService">
+</provider>
+		
+
+		<provider android:authorities="@7F080C54" android:exported="false" android:name="ks.cm.antivirus.applock.launchertheme.LauncherThemeContentProvider" android:process=":DefendService">
+</provider>
+		
+
+		<provider android:authorities="@7F080C55" android:exported="false" android:name="ks.cm.antivirus.applock.lockertheme.LockerThemeContentProvider" android:process=":DefendService">
+</provider>
+		
+
+		<provider android:authorities="@7F080C59" android:exported="false" android:name="ks.cm.antivirus.provider.FirewallProvider" android:process=":DefendService">
+</provider>
+		
+
+		<provider android:authorities="@7F080B58" android:exported="false" android:name="com.cleanmaster.security.callblock.database.CallLogItemProvider" android:process=":DefendService">
+</provider>
+		
+
+		<service android:exported="false" android:name="com.cleanmaster.service.LocalService">
+</service>
+		
+
+		<activity android:configChanges="0x00000060" android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.recommendapps.NullActivity" android:process=":DefendService" android:taskAffinity="ks.cm.antivirus.qucikrcm.nullact" android:theme="@android:0103000F">
+</activity>
+		
+
+		<activity android:configChanges="0x000000A0" android:excludeFromRecents="true" android:launchMode="3" android:name="com.ijinshan.krcmd.view.WebViewActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<provider android:authorities="@7F080B63" android:exported="false" android:name="com.ijinshan.krcmd.sharedprefs.RcmdConfigProviderEn" android:process=":DefendService">
+</provider>
+		
+
+		<provider android:authorities="@7F080C5A" android:exported="false" android:name="ks.cm.antivirus.scan.result.timeline.data.CardsContentProvider" android:process=":DefendService">
+</provider>
+		
+
+		<activity android:name="com.ijinshan.cmbackupsdk.phototrims.ui.UserRegisterOptionsActivity" android:screenOrientation="1" android:theme="@android:01030006">
+</activity>
+		
+
+		<activity android:name="com.ijinshan.cmbackupsdk.phototrims.ui.UserRegisterActivity" android:screenOrientation="1" android:theme="@android:01030006">
+</activity>
+		
+
+		<activity android:name="com.ijinshan.cmbackupsdk.phototrims.ui.UserLoginActivity" android:screenOrientation="1" android:theme="@android:01030006" android:windowSoftInputMode="0x00000012">
+</activity>
+		
+
+		<activity android:configChanges="0x000000A0" android:name="com.ijinshan.cmbackupsdk.phototrims.ui.UserQuickLoginActivity" android:screenOrientation="1" android:theme="@android:01030006">
+</activity>
+		
+
+		<activity android:name="com.ijinshan.cmbackupsdk.phototrims.ui.UserForgetKeyActivity" android:screenOrientation="1" android:theme="@android:01030006">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.cmbackupsdk.phototrims.ui.UserForgetKeySuccessActivity" android:screenOrientation="1" android:theme="@android:01030006">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:launchMode="2" android:name="com.ijinshan.cmbackupsdk.phototrims.PhotoTrimsActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.kbackup.activity.FeedBackActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.kbackup.activity.CloudPictureDirDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.kbackup.activity.CloudPicturePreviewActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x000004A0" android:label="@7F080B32" android:name="com.facebook.FacebookActivity" android:screenOrientation="1" android:theme="@7F0A007C">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.cmbackupsdk.phototrims.ui.cmwebview.CMWebViewActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.kbackup.contacts.ui.ContactsActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.cmbackupsdk.phototrims.ui.UserLoginDialogActivity" android:screenOrientation="1" android:theme="@7F0A0017" android:windowSoftInputMode="0x00000000">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.cmbackupsdk.phototrims.ui.SecondLoginCmDialogActivity" android:screenOrientation="1" android:theme="@7F0A0017" android:windowSoftInputMode="0x00000000">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.cmbackupsdk.phototrims.ui.SecondLoginDialogActivity" android:screenOrientation="1" android:theme="@android:0103000F" android:windowSoftInputMode="0x00000000">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.cmbackupsdk.phototrims.ui.RecommendFacebookDialogActivity" android:screenOrientation="1" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.cmbackupsdk.main.ui.SafeBoxMainActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.cmbackupsdk.main.ui.SafeBoxSettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.kbackup.activity.ContactCloudDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:launchMode="2" android:name="com.ijinshan.cmbackupsdk.main.ui.AsyncDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.kbackup.activity.CloudDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.ijinshan.kbackup.activity.PreventLostDataActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="com.ijinshan.kbackup.activity.ComposeSmsActivity">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.intent.action.SEND">
+</action>
+				
+
+				<action android:name="android.intent.action.SENDTO">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+				<category android:name="android.intent.category.BROWSABLE">
+</category>
+				
+
+				<data android:scheme="sms">
+</data>
+				
+
+				<data android:scheme="smsto">
+</data>
+				
+
+				<data android:scheme="mms">
+</data>
+				
+
+				<data android:scheme="mmsto">
+</data>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<activity android:name="com.ijinshan.cmbackupsdk.phototrims.ui.UserLoginRouterActivity" android:screenOrientation="1" android:theme="@7F0A0087">
+</activity>
+		
+
+		<activity android:name="com.ijinshan.cmbackupsdk.phototrims.ui.UserLoginWithGoogleAccountActivity" android:screenOrientation="1" android:theme="@android:01030006">
+</activity>
+		
+
+		<activity android:name="com.ijinshan.cmbackupsdk.phototrims.ui.UserLoginWithGoogleAccountActivity2" android:screenOrientation="1" android:theme="@7F0A0088">
+</activity>
+		
+
+		<receiver android:name="com.ijinshan.kbackup.receiver.MmsReceiver" android:permission="android.permission.BROADCAST_WAP_PUSH">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.provider.Telephony.WAP_PUSH_DELIVER">
+</action>
+				
+
+				<data android:mimeType="application/vnd.wap.mms-message">
+</data>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:name="com.ijinshan.kbackup.receiver.SmsReceiver" android:permission="android.permission.BROADCAST_SMS">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.provider.Telephony.SMS_DELIVER">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<service android:exported="true" android:name="com.ijinshan.kbackup.service.HeadlessSmsSendService" android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.intent.action.RESPOND_VIA_MESSAGE">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+				<data android:scheme="sms">
+</data>
+				
+
+				<data android:scheme="smsto">
+</data>
+				
+
+				<data android:scheme="mms">
+</data>
+				
+
+				<data android:scheme="mmsto">
+</data>
+				
+
+			</intent-filter>
+			
+
+		</service>
+		
+
+		<service android:name="com.ijinshan.cmbackupsdk.service.KBackupEngineService" android:process=":BackupService" android:screenOrientation="1">
+</service>
+		
+
+		<service android:name="com.ijinshan.cmbackupsdk.service.KBackupCoreService" android:process=":DefendService" android:screenOrientation="1">
+</service>
+		
+
+		<provider android:authorities="@7F080B62" android:exported="false" android:name="com.ijinshan.cmbackupsdk.provider.CmbSdkConfigProvider" android:process=":DefendService">
+</provider>
+		
+
+		<receiver android:exported="true" android:name="com.ijinshan.user.core.sdk.ssologin.LoginCheckReceiver">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.ijinshan.user.ssocheck">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:exported="false" android:name="com.kbackup.AutoBackupReceiver">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.ijinshan.cmbackupsdk.autobackup">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<service android:exported="true" android:name="com.ijinshan.user.core.sdk.ssologin.SSOLoginService" android:process=":ssologin">
+</service>
+		
+
+		<meta-data android:name="com.ijinshan.user.appid" android:value="@7F080CA6">
+</meta-data>
+		
+
+		<meta-data android:name="com.ijinshan.user.appcode" android:value="@7F080CA5">
+</meta-data>
+		
+
+		<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@7F080B65">
+</meta-data>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="2" android:name="com.cleanmaster.security.callblock.ui.CallTaggingActivity" android:screenOrientation="1" android:taskAffinity="com.cleanmaster.security.callblock" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="2" android:name="com.cleanmaster.security.callblock.ui.CallBlockHandUpAddContactActivity" android:screenOrientation="1" android:taskAffinity="com.cleanmaster.security.callblock" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="2" android:name="com.cleanmaster.security.callblock.ui.ContactAuthorizeActivity" android:screenOrientation="1" android:taskAffinity="com.cleanmaster.security.callblock" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:name="com.cleanmaster.security.callblock.ui.CustomTagEditorActivity" android:screenOrientation="1" android:taskAffinity="com.cleanmaster.security.callblock">
+</activity>
+		
+
+		<activity android:name="com.cleanmaster.security.callblock.ui.CustomTagEditorActivity2" android:screenOrientation="1" android:taskAffinity="com.cleanmaster.security.callblock" android:windowSoftInputMode="0x00000002">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="2" android:name="com.cleanmaster.security.callblock.ui.CallBlockCustomReportTag" android:screenOrientation="1" android:taskAffinity="com.cleanmaster.security.callblock" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="2" android:name="com.cleanmaster.security.callblock.ui.CallBlockHiddenNumberAuthorizeActivity" android:screenOrientation="1" android:taskAffinity="com.cleanmaster.security.callblock" android:theme="@7F0A0017">
+</activity>
+		
+
+		<activity android:name="com.cleanmaster.security.callblock.ui.CallBlockListActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.scan.PowerBoostActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="true" android:launchMode="3" android:name="ks.cm.antivirus.scan.WiFiBoostActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:exported="true" android:launchMode="1" android:name="ks.cm.antivirus.antitheft.ui.ProAntitheftMainActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000030">
+</activity>
+		
+
+		<activity android:configChanges="0x00000020" android:name="com.kbackup.contacts.ui.UserForgetPatternActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:launchMode="1" android:name="ks.cm.antivirus.antitheft.ui.AntitheftAdvanceSettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.result.WifiProtectScanResultActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:launchMode="3" android:name="com.ijinshan.screensavernew.ScreenSaver2Activity" android:screenOrientation="1" android:theme="@android:01030011">
+</activity>
+		
+
+		<receiver android:exported="false" android:name="ks.cm.antivirus.notification.NotificationDismissReceiver" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.notification.action.cancel">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="true" android:launchMode="2" android:name="ks.cm.antivirus.scan.network.ui.WifiScanResultActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.network.ui.WifiScanResultDetailActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="true" android:launchMode="3" android:name="ks.cm.antivirus.scan.network.ui.WifiSafetyResultActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="ks.cm.antivirus.scan.network.ui.WifiAssistantIntroActivity" android:screenOrientation="1" android:theme="@7F0A009C">
+</activity>
+		
+
+		<activity android:name="ks.cm.antivirus.scan.network.ui.WifiScanMasterActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="true" android:launchMode="3" android:name="ks.cm.antivirus.scan.network.ui.WifiSpeedTestActivity" android:screenOrientation="1" android:theme="@7F0A007B">
+</activity>
+		
+
+		<activity android:name="com.locker.sdk.ui.NotificationGuideActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:launchMode="3" android:name="com.locker.sdk.ui.LockerLockScreenFlawActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<receiver android:exported="false" android:name="com.ijinshan.screensavershared.ScreenSaverNullReceiver">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.ijinshan.screensaveshared.StartUIProcess">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:exported="true" android:name="com.ijinshan.screensavershared.mutual.CharingSaverStateReceiver" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.charingsaver.state.action">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<activity android:configChanges="0x000004A0" android:hardwareAccelerated="true" android:name="com.loopme.AdActivity" android:theme="@android:0103000F">
+</activity>
+		
+
+		<activity android:name="com.loopme.AdBrowserActivity">
+</activity>
+		
+
+		<activity android:name="com.cleanmaster.applink.DeepLinkActivity" android:theme="@7F0A003F">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.intent.action.VIEW">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+				<category android:name="android.intent.category.BROWSABLE">
+</category>
+				
+
+				<data android:scheme="cmsecuritylink">
+</data>
+				
+
+			</intent-filter>
+			
+
+		</activity>
+		
+
+		<activity android:configChanges="0x000004A0" android:hardwareAccelerated="false" android:name="com.mopub.mobileads.MoPubActivity" android:taskAffinity="com.cleanmaster.mopub">
+</activity>
+		
+
+		<activity android:configChanges="0x000004A0" android:name="com.mopub.mobileads.MraidActivity" android:taskAffinity="com.cleanmaster.mopub">
+</activity>
+		
+
+		<activity android:configChanges="0x000004A0" android:hardwareAccelerated="false" android:name="com.mopub.common.MoPubBrowser" android:taskAffinity="com.cleanmaster.mopub">
+</activity>
+		
+
+		<activity android:configChanges="0x000004A0" android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:taskAffinity="com.cleanmaster.mopub">
+</activity>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="true" android:launchMode="2" android:name="ks.cm.antivirus.scan.network.ui.WifiPowerSavingSettingActivity" android:screenOrientation="1">
+</activity>
+		
+
+		<activity android:exported="true" android:launchMode="3" android:name="ks.cm.antivirus.scan.network.ui.WifiAssistantSettingActivity" android:screenOrientation="1" android:theme="@7F0A009C">
+</activity>
+		
+
+		<receiver android:enabled="true" android:exported="true" android:name="ks.cm.antivirus.receiver.DummyPackageReceiver" android:process=":DefendService">
+			
+
+			<intent-filter android:priority="2147483647">
+				
+
+				<action android:name="android.intent.action.PACKAGE_REPLACED">
+</action>
+				
+
+				<data android:scheme="package">
+</data>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<service android:name="ks.cm.antivirus.wallpaper.KLiveWallPaperService" android:permission="android.permission.BIND_WALLPAPER" android:process=":WallPaperService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.service.wallpaper.WallpaperService">
+</action>
+				
+
+			</intent-filter>
+			
+
+			<meta-data android:name="android.service.wallpaper" android:resource="@7F050003">
+</meta-data>
+			
+
+		</service>
+		
+
+		<provider android:authorities="@7F080B59" android:exported="true" android:name="ks.cm.antivirus.applock.sdkrule.AppLockActiveProvider" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.cleanmaster.applocklib.intent.provider.APPLOCK_ACTIVE">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</provider>
+		
+
+		<receiver android:exported="true" android:label="@7F080B59" android:name="ks.cm.antivirus.applock.sdkrule.AppLockActiveReceiver" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="com.cleanmaster.applocklib.intent.receiver.APPLOCK_ACTIVE">
+</action>
+				
+
+				<category android:name="android.intent.category.DEFAULT">
+</category>
+				
+
+			</intent-filter>
+			
+
+		</receiver>
+		
+
+		<receiver android:exported="true" android:name="ks.cm.antivirus.applock.service.HiddenNotificationActionReceiver" android:process=":DefendService">
+</receiver>
+		
+
+		<service android:enabled="@7F0B0000" android:exported="false" android:name="ks.cm.antivirus.applock.accessibility.AppLockAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.accessibilityservice.AccessibilityService">
+</action>
+				
+
+			</intent-filter>
+			
+
+			<meta-data android:name="android.accessibilityservice" android:resource="@7F050000">
+</meta-data>
+			
+
+		</service>
+		
+
+		<service android:enabled="@7F0B0003" android:exported="false" android:name="ks.cm.antivirus.applock.accessibility.AppLockAccessibilityServicePreJB" android:process=":DefendService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="android.accessibilityservice.AccessibilityService">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</service>
+		
+
+		<service android:enabled="true" android:exported="false" android:name="ks.cm.antivirus.applock.service.watchdog.AppLockWatchdogJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":DefendService">
+</service>
+		
+
+		<activity android:excludeFromRecents="true" android:exported="true" android:name="ks.cm.antivirus.scan.network.ui.WifiQualityFeedbackActivity" android:screenOrientation="1" android:taskAffinity="wifi.feedback" android:theme="@7F0A008C" android:windowSoftInputMode="0x00000020">
+</activity>
+		
+
+		<service android:exported="false" android:name="ks.cm.antivirus.scan.network.connecter.service.ConnectionWindowService" android:process=":ConnectionWindowService">
+			
+
+			<intent-filter>
+				
+
+				<action android:name="ks.cm.antivirus.scan.network.connecter.service.ACTION_SHOW">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.scan.network.connecter.service.ACTION_END">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.scan.network.connecter.service.ACTION_RELEASE">
+</action>
+				
+
+				<action android:name="ks.cm.antivirus.scan.network.connecter.service.ACTION_CANCEL">
+</action>
+				
+
+			</intent-filter>
+			
+
+		</service>
+		
+
+		<service android:exported="false" android:name="ks.cm.antivirus.scan.network.connecter.service.ReportIntentService" android:process=":DefendService">
+</service>
+		
+
+	</application>
+	
+
+</manifest>
+

@@ -1,0 +1,1 @@
+java -jar SmaliDebugTool.jar path/of/apk path/of/output

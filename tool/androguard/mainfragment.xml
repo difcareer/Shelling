@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="-1" android:layout_width="-1" xmlns:android="http://schemas.android.com/apk/res/android">
+	
+
+	<LinearLayout android:layout_height="-2" android:layout_width="-1" android:orientation="1">
+		
+
+		<LinearLayout android:id="@7F08000D" android:layout_height="-2" android:layout_marginBottom="16.000000dip" android:layout_width="-1" android:orientation="1">
+			
+
+			<TextView android:layout_height="-2" android:layout_width="-1" android:text="@7F05000A" style="@7F060001">
+</TextView>
+			
+
+			<TextView android:layout_height="-2" android:layout_marginTop="4.000000dip" android:layout_width="-2" android:paddingLeft="16.000000dip" android:paddingRight="16.000000dip" android:text="@7F050014">
+</TextView>
+			
+
+			<LinearLayout android:layout_height="-2" android:layout_marginTop="4.000000dip" android:layout_width="-1" android:orientation="0" android:paddingLeft="16.000000dip" android:paddingRight="16.000000dip">
+				
+
+				<CheckBox android:id="@7F08000E" android:layout_height="-2" android:layout_width="-2">
+</CheckBox>
+				
+
+				<Button android:enabled="false" android:id="@7F08000F" android:layout_height="-2" android:layout_weight="1.000000" android:layout_width="0.000000dip" android:text="@7F050013">
+</Button>
+				
+
+			</LinearLayout>
+			
+
+		</LinearLayout>
+		
+
+		<TextView android:layout_height="-2" android:layout_width="-1" android:text="@7F05000B" style="@7F060001">
+</TextView>
+		
+
+		<LinearLayout android:layout_height="-2" android:layout_marginTop="4.000000dip" android:layout_width="-1" android:orientation="0" android:paddingLeft="16.000000dip" android:paddingRight="16.000000dip">
+			
+
+			<TextView android:layout_height="-2" android:layout_weight="1.000000" android:layout_width="0.000000dip" android:singleLine="true" android:text="@7F05003E">
+</TextView>
+			
+
+			<TextView android:id="@7F080010" android:layout_height="-2" android:layout_width="-2">
+</TextView>
+			
+
+		</LinearLayout>
+		
+
+		<LinearLayout android:layout_height="-2" android:layout_marginBottom="16.000000dip" android:layout_marginTop="4.000000dip" android:layout_width="-1" android:orientation="0" android:paddingLeft="16.000000dip" android:paddingRight="16.000000dip">
+			
+
+			<TextView android:layout_height="-2" android:layout_weight="1.000000" android:layout_width="0.000000dip" android:singleLine="true" android:text="@7F05003D">
+</TextView>
+			
+
+			<TextView android:id="@7F080011" android:layout_height="-2" android:layout_width="-2">
+</TextView>
+			
+
+		</LinearLayout>
+		
+
+		<TextView android:layout_height="-2" android:layout_width="-1" android:text="@7F050009" style="@7F060001">
+</TextView>
+		
+
+		<LinearLayout android:layout_height="-2" android:layout_marginTop="4.000000dip" android:layout_width="-1" android:orientation="0" android:paddingLeft="16.000000dip" android:paddingRight="16.000000dip">
+			
+
+			<TextView android:id="@7F080012" android:layout_height="-2" android:layout_weight="1.000000" android:layout_width="0.000000dip" android:singleLine="true">
+</TextView>
+			
+
+			<TextView android:id="@7F080013" android:layout_height="-2" android:layout_width="-2">
+</TextView>
+			
+
+		</LinearLayout>
+		
+
+		<ToggleButton android:id="@7F080014" android:layout_gravity="0x00000001" android:layout_height="64.000000dip" android:layout_marginLeft="16.000000dip" android:layout_marginRight="16.000000dip" android:layout_marginTop="64.000000dip" android:layout_width="-1" android:textOff="@7F050005" android:textOn="@7F050006" android:textSize="16.000000sp">
+</ToggleButton>
+		
+
+	</LinearLayout>
+	
+
+</ScrollView>
+
