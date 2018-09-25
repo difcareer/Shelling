@@ -1,5 +1,5 @@
 360: 
-http://jiagu.360.cn/protection?s=1
+http://jiagu.360.cn/manage/index.html#/app/android
 
 腾讯：
 http://console.qcloud.com/legu/myapplication/index
@@ -7,3 +7,11 @@ http://console.qcloud.com/legu/myapplication/index
 阿里：
 http://jaq.alibaba.com/gc/appsec/reinforce_main.htm?spm=a313e.7913627.11111111.3.3Vf5AM&itemId=c1d2943e-b824-4538-a138-62a26787ebfe
 
+爱加密：
+http://www.ijiami.cn/apply/encryptLogs  todo
+
+百度：
+https://app.baidu.com/jiagu/  
+
+梆梆：
+本地   todo
